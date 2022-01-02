@@ -1,0 +1,27 @@
+baseURL = "https://dyanglou.github.io"
+languageCode = "zh-Hans"
+title = "dyl's web page"
+theme = "book"
+
+disablePathToLower = true
+hasCJKLanguage = true
+summaryLength = 120
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+  [markup.highlight]
+    lineNoStart = 1
+    lineNos = true
+    style = "native"
+    tabWidth = 2
+
+[params]
+  BookTheme = "dark"
+  BookToC = true
+  BookRepo = "https://dyanglou.github.io"
+  BookDateFormat = "02/01/2006"
+  BookSearch = true
+  BookComments = false
+  BookLogo = "logo.png"
+  images = ["logo.png"]
